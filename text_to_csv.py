@@ -63,5 +63,6 @@ df = pd.concat(dataframe_list)
 df = df.sort_values(by="title")
 
 df.to_csv("JSTOR.csv", index=False)
+df.to_excel("JSTOR.xlsx")
 
-print(df)
+# print(df)
